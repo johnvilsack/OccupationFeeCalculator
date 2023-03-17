@@ -9,9 +9,8 @@ An OpenAI API key
 
 
 ```
-git clone https://github.com/johnvilsack/OccupationFeeCalculator.git | cd OccupationFeeCalculator
-pip install openai
-pip install python-dotenv
+git clone https://github.com/johnvilsack/OccupationFeeCalculator.git && cd OccupationFeeCalculator
+pip install openai python-dotenv
 python main.py
 
 ```
