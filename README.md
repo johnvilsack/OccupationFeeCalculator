@@ -1,7 +1,14 @@
 # OccupationFeeCalculator
 Asks ChatGPT to retrieve information about licensed professions by state.
 
-RUN THIS SCRIPT IN THE FOLDER YOU WANT THE APP TO LIVE IN
+
+# Installation
+1. Navigate to the folder you want the app to live in.
+2. Right click anywhere in that window and click "Open in Terminal"
+3. Copy and paste each line in the script, one at a time.
+  THE LAST LINE SHOULD CONTAIN YOUR API KEY.
+4. Double click main.py to open the app
+
 ```
 winget install python
 winget install git
