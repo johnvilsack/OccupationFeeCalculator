@@ -1,16 +1,12 @@
 # OccupationFeeCalculator
 Asks ChatGPT to retrieve information about licensed professions by state.
 
-# Prerequisites
-Python
-Pip
-Git
-An OpenAI API key
-
-
+RUN THIS SCRIPT IN THE FOLDER YOU WANT THE APP TO LIVE IN
 ```
-git clone https://github.com/johnvilsack/OccupationFeeCalculator.git && cd OccupationFeeCalculator
+winget install python
+winget install git
+git clone https://github.com/johnvilsack/OccupationFeeCalculator.git
+cd OccupationFeeCalculator
 pip install openai python-dotenv
-python main.py
-
+"OPENAI_API_KEY=YOURAPIKEYHERE" | Add-Content "./.env"
 ```
